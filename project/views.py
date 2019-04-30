@@ -39,11 +39,9 @@ def login_page(request):
             #context['form']=LoginForm()
             return redirect("/")
             # Redirect to a success page.
-            ...
         else:
             # Return an 'invalid login' error message.
             print("Error")
-            ...
     return render(request,"auth/login.html",context)
 User=get_user_model()
 def register_page(request):
