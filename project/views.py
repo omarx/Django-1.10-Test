@@ -5,7 +5,7 @@ from .forms import Contactform,LoginForm,RegisterForm
 
 def home_page(request):
     context={
-        "title":"This is the homepage"
+        "title":"Hello World"
 
     }
     if request.user.is_authenticated():
